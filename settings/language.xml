@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+   <language version="1.0" htmlParse="true">
+;
+
+        <!-- misc -->
+        <item id="btnContinue">继续</item>
+        <item id="btnclose">关闭</item>
+        <item id="btnHelp">帮助</item>
+        <item id="btnAgreement">同意</item>
+        <item id="btnNeutral">不确定</item>
+        <item id="btnDisagreement">不同意</item>
+        <item id="btnTransfer">提交数据</item>
+        <item id="btnExit">提出</item>
+        <item id="selectItem">请选择</item>
+        
+        <!-- Warning when user is trying to leave the page (this item was added for HtmlQ) -->
+        <item id="leaveSiteWarning">您的答案将会丢失。</item>
+
+        <!-- HtmlQ only: In-App Back Button -->
+        <item id="backButton">返回</item>
+        <item id="fillInRequiredFields">请填写所有必填项。</item>
+
+        <!-- errors -->
+        <item id="errorHead">错误！</item>
+        <item id="errorWindowTooSmall">Please maximize your browser for using this application.</item>
+
+        <!-- welcome screen (leave blank to skip screen) -->
+        <item id="welcomeHead">欢迎！</item>
+        <item id="welcomeText">这是一项关于德语学习动机的调查研究。您大概需要花费10-15分钟的时间完成本次调研。非常感谢您的帮助！</item>
+
+        <!-- user login, only displayed if access is restricted (see config-file) -->
+        <item id="loginHead">Access Code</item>
+        <item id="loginText">Please enter the access code for this survey.</item>
+        <item id="loginFormHeader">Access Code</item>
+        <item id="loginPartIdText">Your name or survey id number</item>
+        <item id="loginNoInput">Please enter the access code.</item>
+        <item id="loginInvalidInput">Access code invalid</item>
+        <item id="loginNoConnection">Connection to server failed. Please try again.</item>
+
+        <!-- introduction (leave blank to skip popup) -->
+        <item id="introHead">关于德语学习动机的调查研究</item>
+        <item id="introText">这是一项关于德语学习动机的调查研究。</item>
+
+        <!-- step1: rough sorting into three piles (leave blank to skip popup)-->
+        <item id="step1Head">步骤一</item>
+        <item id="step1Text">仔细阅读以下语句，并将其分成三堆：一堆是您倾向于不同意的陈述，一堆是您倾向于同意的陈述，还有一堆是其他不确定的陈述。{br}{br}您可以选择直接把牌拖拽到对应牌堆中，或者使用键盘上的数字1、2、3进行分类。该分类还可以在后续操作中更改。{br}{br}如果您想再读一遍这个说明，请按左下角的“帮助”按钮。</item>
+
+        <!-- step2: sorting (leave blank to skip popup) -->
+        <item id="step2Head">步骤二</item>
+        <item id="step2Text">从“同意”牌堆中取出卡片，并将其排列在表格的右侧。{br}{br}接下来，从“不同意”牌堆中取出卡片，将它们排列在表格的左侧。将“同意”和“不同意”的所有卡片按照这个程序进行排列。{br}{br}最后，把“不确定”的卡片排列至表格剩下的空格里。</item>
+        <item id="step2CondOfInstruc">在此给出指令条件。</item>
+        <item id="step2TextSizeLabel">文本</item>
+        
+
+        <!-- step3: check sorting, only displayed if showStep3== true (see config-file; leave blank to skip popup)-->
+        <item id="step3Head">步骤三</item>
+        <item id="step3Text">现在您已经把所有的卡片排入表格。请再检查一遍您的排序，如有必要，请作适当调整。</item>
+        <item id="step3CondOfInstruc">在此给出指令条件。</item>
+
+        <!-- step4: comments on best/worst rated statements, only displayed if showStep4== true (see config-file; leave blank to skip popup) -->
+        <item id="step4Head">步骤四</item>
+        <item id="step4Text">请解释您为什么最同意或最不同意以下排列在“+5”或“-5”中的陈述。</item>
+
+        <!-- step5: dditional questions, only displayed if showStep5== true (see config-file; leave blank to skip popup)-->
+        <item id="step5Head">步骤五</item>
+        <item id="step5Text">最后，请回答以下有关您背景的问题。</item>
+
+        <!-- data transfer, only displayed if submitUrl is not blank (see config-file) -->
+        <item id="transferHead">提交数据。</item>
+        <item id="transferText">您已顺利完成本次调研。现在请提交您的数据。</item>
+        <item id="transferFailed">数据提交失败。请重试。</item>
+        <item id="transferOk">数据提交成功。非常感谢您的参与！</item>   
+   </language>
